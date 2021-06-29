@@ -1,0 +1,73 @@
+html, body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+a {
+  color: Blue;
+}
+
+a:visited {
+  color: CornflowerBlue;
+}
+
+a:active {
+  color: DarkCyan;
+}
+
+.body {
+  color: Black;
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  font-size: 15px;
+}
+
+#main_title {
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+  background-color: #e2e2e2;
+  width: 66%;
+  position: relative;
+  clear: none;
+  left: 16%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#footer {
+  clear: both;
+  position: relative;
+  z-index: 10;
+  height: 3em;
+  margin-top: -3em;
+  text-align: right;
+  color: yellow;
+}
+
+
+#greetings > p > span.greetingsSpan,
+#greetings > p > a.greetingsLink,
+#greetings > p {
+  font-size: 12px;
+}
+
+select {
+  font-size: 13px;
+}
+
+input {
+  font-size: 13px;
+}
+
+button {
+  font-size: 13px;
+}

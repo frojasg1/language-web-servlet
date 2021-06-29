@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.frojasg1</groupId>
+  <artifactId>language-web-servlet</artifactId>
+  <version>v1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <properties>
+    <version.slf4j>1.7.21</version.slf4j>
+    <version.velocity>1.7</version.velocity>
+    
+    <maven-clean-plugin.version>3.0.0</maven-clean-plugin.version>
+    <version.maven-compiler-plugin>3.6.0</version.maven-compiler-plugin>
+
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <javadoc.opts>-Xdoclint:none</javadoc.opts>
+  </properties>
+  <build>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>true</filtering>
+      </resource>
+      <resource>
+        <directory>${project.basedir}</directory>
+        <includes>
+          <include>NOTICE*</include>
+          <include>LICENSE*</include>
+        </includes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>${maven-clean-plugin.version}</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${version.maven-compiler-plugin}</version>
+        <configuration>
+          <encoding>UTF-8</encoding>
+          <source>1.8</source>
+          <target>1.8</target>
+          <showDeprecation>true</showDeprecation>
+        </configuration>
+      </plugin>
+    </plugins>
+
+  </build>
+  <dependencies>
+       <dependency>
+           <groupId>org.slf4j</groupId>
+           <artifactId>slf4j-api</artifactId>
+           <version>1.7.6</version>
+       </dependency>
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+         <version>4.0.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.mozilla/juniversalchardet -->
+    <dependency>
+        <groupId>com.googlecode.juniversalchardet</groupId>
+        <artifactId>juniversalchardet</artifactId>
+        <version>1.0.3</version>
+    </dependency>
+  </dependencies>
+</project>

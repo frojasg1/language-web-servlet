@@ -1,0 +1,142 @@
+.body {
+  padding-top: 0em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  min-height: 450px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+#footer {
+  color: rgba(153, 51, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.73);
+}
+
+.floatLeft {
+  float: left;
+text-shadow: 2px 2px 2px rgba(204, 204, 204, 0.26);
+  text-align: left;
+}
+
+.leftWrapper {
+  width: auto;
+  text-align: center;
+}
+
+#contenido {
+  border-top-color: black;
+  border-right-color: black;
+  border-bottom-color: black;
+  border-left-color: black;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  display: block;
+  overflow: auto;
+  padding-top: 1em;
+  padding-right: 2em;
+  padding-bottom: 1px;
+  padding-left: 2em;
+  text-align: left;
+  height: 100%;
+  background-image: url("../images/background.png");
+  background-repeat: repeat;
+	word-wrap: break-word;
+}
+
+.exito {
+  color: #33cc00;
+}
+
+.fracaso {
+  background-color: red;
+}
+
+.resetSides {
+  clear: both;
+}
+
+img {
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: black;
+  border-right-color: black;
+  border-bottom-color: black;
+  border-left-color: black;
+  border-radius: 2px;
+  width: 533px;
+  height: 400px;
+  transform: scale(1);
+}
+
+.centerDivWrapper {
+  text-align: center;
+}
+
+.formWrapper {
+}
+
+.whiteTransparencyBackground {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.executeQueryButtonDiv {
+  text-align: center;
+}
+
+button {
+  background-color: #c5cdff;
+}
+
+.subjectInput {
+  min-width: 15em;
+  min-height: 1em;
+  width: 50em;
+}
+
+.messageInput {
+  min-width: 15em;
+  min-height: 4em;
+  width: 50em;
+}
+
+.successful {
+  color: #6189f0;
+}
+
+.nonsuccessful {
+  color: #f0889b;
+}
+
+#contenido .input {
+  padding-top: 0em;
+  padding-right: 0em;
+  padding-bottom: 0px;
+  padding-left: 0em;
+  margin-top: 0em;
+  margin-right: 0em;
+  margin-bottom: 0px;
+  margin-left: 0em;
+  vertical-align: top;
+}
+
+.leyendaForm {
+  width: 5em;
+}

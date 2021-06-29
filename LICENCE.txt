@@ -1,0 +1,19 @@
+This Java work is totally usable with or without modifications, with the following limitations:
+
+If you use the generic library (language-web-servlet v1.0-SNAPSHOT) without modifications, you will have to comply with the license of
+juniversalchardet 1.0.3, that is a dependency of that library.
+
+If you do not need such functionality (as for example in case you know exactly which character encoding is being used in your properties files), and you do not want to have that dependency, you can remove it by making getCharset function abstract, and overriding it at every derived class with the appropriate charset.
+You should also remove com.frojasg1.web.languageweb.charset package from the library and the dependency (juniversalchardet) at pom.xml.
+
+
+Related with the web content:
+	- Flag icons have copyright. I bought them at https://www.iconfinder.com/
+		If you want to use them, you should buy them and use your copy.
+
+	- jquery.cookiebar plugin. I also used jquery.cookiebar plugin. if you want continue using it, you should download your own copy at https://www.primebox.co.uk/projects/jquery-cookiebar/ and comply with its license.
+
+
+
+The rest of code has been either programmed by me or found in some thread found with Google, you can reuse it as you need.
+
